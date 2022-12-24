@@ -120,4 +120,12 @@ footer {
 	margin: 10px;
 }
 
+.footer_caja {
+	background-color: rgb(107, 154, 180);
+	width: 460px;
+	height: 580px;
+	float: left;
+	margin: 10px;
+}
+
 
