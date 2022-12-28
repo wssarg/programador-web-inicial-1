@@ -1,3 +1,12 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+	margin: 0;
+	background-color: rgba(0, 0, 0, 0.658);
+}
+
 header, section, footer {
 	width: 960px;
 	margin-left: auto;
@@ -6,18 +15,22 @@ header, section, footer {
 
 header{
 	height: 80px;
-	background-color: #C0E854;
+	/*background-color: #C0E854;*/
+	background-color: rgba(0, 0, 0, 0.795);
+	position: sticky;
+	top: 0;
 }
 
 footer {
 	height: 80px;
 	background-color: chocolate;
+	border-radius: 20px;
 }
 
 #marca {
 	width: 300px;
 	height: 60px;
-	background-color: cyan;
+	/*background-color: cyan;*/
 	float: left;
 	margin: 10px;
 }
@@ -25,57 +38,99 @@ footer {
 #logo {
 	width: 80px;
 	height: 80px;
-	background-color: beige;
+	/*background-color: beige;*/
 	float: left;
 }
 
 #botonera {
 	width: 550px;
 	height: 80px;
-	background-color: rgb(144, 166, 238);
+	/*background-color: rgb(144, 166, 238);*/
 	float: right;
 }
 
 #nosotros {
 	background-color: #a4af42;
-	height: 500px;
+	height: 550px;
+	padding-top: 90px;
+	border-radius: 20px;
 }
 
 .nosotros_caja {
 	background-color: rgb(88, 207, 201);
 	width: 460px;
-	height: 480px;
+	height: 520px;
 	float: left;
 	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	text-align: justify;
+	border: 45px solid transparent;
+	border-image: url(imagenes/decorative-2858909_960_720.png) 45 stretch;	
 }
+
+.nosotros_caja_2 {
+	background-image: url(imagenes/credit-card-1730085__340.jpg);
+	background-position: center;
+	background-size: cover;
+	width: 460px;
+	height: 520px;
+	float: left;
+	margin: 10px;
+	border-radius: 20px;
+}
+
 
 #contacto{
 	background-color: #8b81aa;
-	height: 500px;
+	height: 550px;
+	padding-top: 90px;
+	border-radius: 20px;
 }
 
 .contacto_caja{
 	background-color: rgb(218, 207, 110);
 	width: 460px;
-	height: 480px;
+	height: 520px;
 	float: left;
 	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	text-align: justify;
+}
+
+.contacto_caja_2 {
+	background-image: url(imagenes/technology-6114753__340.webp);
+	background-position: center;
+	background-size: cover;
+	width: 460px;
+	height: 520px;
+	float: left;
+	margin: 10px;
+	border-radius: 20px;
 }
 
 #productos1{
-	background-color: #ca21ec;
+	background: url(imagenes/) , url(imagenes/cyber-5240883__340.png) no-repeat center;
+	background-color: #000000;
+	background-size: cover;
 	height: 600px;
+	border-radius: 20px;
 }
 
 #productos2{
 	background-color: #ec9b21;
 	height: 600px;
+	border-radius: 20px;
 }
 
 
 #productos3{
 	background-color: #2121ec;
 	height: 600px;
+	border-radius: 20px;
 }
 
 .productos3_caja {
@@ -84,6 +139,7 @@ footer {
 	height: 450px;
 	float: left;
 	margin: 10px;
+	border-radius: 20px;
 }
 
 .productos3_caja_inferior {
@@ -92,11 +148,13 @@ footer {
 	background-color: chocolate;
 	clear: left;
 	margin: 10px;
+	border-radius: 20px;
 }
 
 #productos4{
 	background-color: #21e5ec;
 	height: 600px;
+	border-radius: 20px;
 }
 
 .productos4_caja {
@@ -105,11 +163,13 @@ footer {
 	height: 580px;
 	float: left;
 	margin: 10px;
+	border-radius: 20px;
 }
 
 #productos5{
 	background-color: #1ae925;
 	height: 600px;
+	border-radius: 20px;
 }
 
 .productos5_caja {
@@ -118,6 +178,7 @@ footer {
 	height: 580px;
 	float: left;
 	margin: 10px;
+	border-radius: 20px;
 }
 
 .footer_caja {
@@ -126,6 +187,40 @@ footer {
 	height: 60px;
 	float: left;
 	margin: 10px;
+	text-align: center;
+	border-radius: 20px;
 }
 
 
+h1 {
+	margin-top: 10px;
+	/*color: darkgreen;*/
+	color: darkgrey;
+}
+
+#botonera ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+#botonera ul li a {
+	width: 100%;
+	display: block;
+	/*color: darkgreen;*/
+	color: darkgrey;
+	font-weight: bold;
+	text-decoration: none;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+#img_cabecera {
+	background-image: url(imagenes/ecommerce-3546296__340.webp);
+	background-position: center;
+	width: 100%;
+	height: 100px;
+}
