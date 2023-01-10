@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-Commerce</title>
     <link rel="stylesheet" href="estilo.css">
+	<script src="unidad7.js"></script>
 </head>
 <body>
 	<aside id="img_cabecera"></aside>
@@ -27,7 +28,17 @@
 	</header>
 	
 	<section id="productos1"></section>
-	<section id="productos2"></section>
+	<section id="productos2">
+		<script>
+			document.write('<h3>Información provista por el usuario</h3>');
+			
+			document.write('<p>Nombre: '+nombre.toUpperCase()+'</p>');
+			document.write('<p>Edad: '+edad.toUpperCase()+'</p>');
+			document.write('<p>Tarjeta: '+tarjeta.toUpperCase()+'</p>');
+			document.write('<p>Habitual: '+habitual.toUpperCase()+'</p>');
+			document.write('<p>Dias para la proxima navidad: '+dias_para_navidad+'</p>');
+		</script>
+	</section>
 	<section id="productos3">
 		<div class="productos3_caja"></div>
 		<div class="productos3_caja"></div>
