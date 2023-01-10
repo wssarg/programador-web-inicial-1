@@ -124,6 +124,7 @@ footer {
 	background-color: #ec9b21;
 	height: 600px;
 	border-radius: 20px;
+	padding: 10px;
 }
 
 
@@ -395,4 +396,8 @@ h1 {
 	#img_cabecera {
 		display: none;
 	}
+}
+
+#productos2 h3{
+	text-align: center;	
 }
