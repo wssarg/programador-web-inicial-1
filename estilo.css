@@ -427,3 +427,54 @@ footer {
 #productos2 h3{
 	text-align: center;	
 }
+
+
+#servicios {
+	height: 800px;
+	background-color: aqua;	
+	border-radius: 20px;
+}
+
+
+#contenedor_serv {
+	height: 600px;
+	background-color: #ec9b21;
+}
+
+#mod1_serv, #mod2_serv{
+	height: 300px;
+}
+
+#mod3_serv{
+	height: 200px;
+}
+
+
+#serv1 {
+	background-color: #2121ec;
+}
+
+#serv2 {
+	background-color: aquamarine;
+}
+
+#serv3 {
+	background-color: brown;
+}
+
+#serv4 {
+	background-color: bisque;
+}
+
+#serv5 {
+	background-color:#8b81aa;
+}
+
+#serv6 {
+	background-color:darkseagreen;
+}
+
+#serv7 {
+	background-color: coral;
+}
+
