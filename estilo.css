@@ -19,6 +19,7 @@ header{
 	background-color: rgba(0, 0, 0, 0.795);
 	position: sticky;
 	top: 0;
+	z-index: 1000;
 }
 
 footer {
@@ -38,7 +39,7 @@ footer {
 #logo {
 	width: 80px;
 	height: 80px;
-	/*background-color: beige;*/
+	background-color: black;
 	float: left;
 }
 
@@ -456,6 +457,12 @@ footer {
 
 #serv2 {
 	background-color: aquamarine;
+}
+
+#serv2 div img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #serv3 {
