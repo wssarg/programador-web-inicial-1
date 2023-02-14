@@ -24,7 +24,7 @@ header{
 
 footer {
 	height: 80px;
-	background-color: chocolate;
+	background-color: rgb(44, 44, 44);
 	border-radius: 20px;
 }
 
@@ -51,7 +51,7 @@ footer {
 }
 
 #nosotros {
-	background-color: #a4af42;
+	background-color: #818181;
 	height: 550px;
 	/*padding-top: 90px;*/
 	border-radius: 20px;
@@ -61,7 +61,7 @@ footer {
 	width: 460px;
 	height: 520px;
 	float: left;
-	background-color: rgb(88, 207, 201);
+	background-color: rgb(182, 182, 182);
 	margin: 10px;
 	padding: 10px;
 	box-sizing: border-box;
@@ -84,7 +84,7 @@ footer {
 
 
 #contacto{
-	background-color: #8b81aa;
+	background-color: #a1a1a1;
 	height: 550px;
 	/*padding-top: 90px;*/
 	border-radius: 20px;
@@ -94,7 +94,7 @@ footer {
 	width: 460px;
 	height: 520px;
 	float: left;
-	background-color: rgb(218, 207, 110);
+	background-color: rgb(201, 201, 201);
 	margin: 10px;
 	padding: 10px;
 	box-sizing: border-box;
@@ -122,7 +122,7 @@ footer {
 }
 
 #productos2{
-	background-color: #ec9b21;
+	background-color: #dadada;
 	height: 600px;
 	border-radius: 20px;
 	padding: 10px;
@@ -135,7 +135,7 @@ footer {
 
 
 #productos3{
-	background-color: #2121ec;
+	background-color: #d3d3d3;
 	height: 600px;
 	border-radius: 20px;
 }
@@ -144,55 +144,81 @@ footer {
 	width: 300px;
 	height: 450px;
 	float: left;
-	background-color: burlywood;
+	background-color: rgb(206, 206, 206);
 	margin: 10px;
 	border-radius: 20px;
+}
+
+.productos3_caja_inferior img {
+	position: relative;
+	top: 10px;
+	left: 100px;
 }
 
 .productos3_caja_inferior {
 	width: 940px;
 	height: 120px;
 	clear: left;
-	background-color: chocolate;
+	background-color: rgb(173, 173, 173);
 	margin: 10px;
 	border-radius: 20px;
 }
 
 #productos4{
-	background-color: #21e5ec;
+	background-color: #949494;
 	height: 600px;
 	border-radius: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
 }
 
-.productos4_caja {
-	width: 460px;
-	height: 580px;
-	float: left;
-	background-color: rgb(224, 100, 83);
-	margin: 10px;
+#productos4_caja {
+	background-color: #dddddd;
+	margin: auto;
 	border-radius: 20px;
 }
 
 #productos5{
-	background-color: #1ae925;
-	height: 600px;
+	background-color: #dbdbdb;
+	height: 450px;
 	border-radius: 20px;
 }
 
 .productos5_caja {
-	width: 460px;
-	height: 580px;
+	/*width: 460px;
+	height: 580px;*/
 	float: left;
-	background-color: rgb(95, 71, 201);
+	background-color: rgb(202, 202, 202);
 	margin: 10px;
 	border-radius: 20px;
+	display: flex;
+	/*width: 600px;*/
+	width: 940px;
+	height: 430px;
+}
+
+.productos5_caja img{
+	width: 0px;
+	flex-grow: 1;
+	object-fit: cover;
+	opacity: 0.8;
+	transition: .5s ease;
+}
+
+.productos5_caja img:hover{
+	cursor: crosshair;
+	width: 300px;
+	opacity: 1;
+	filter: contrast(120%);
 }
 
 .footer_caja {
 	width: 460px;
 	height: 60px;
 	float: left;
-	background-color: rgb(107, 154, 180);
+	background-color: rgb(180, 180, 180);
 	margin: 10px;
 	text-align: center;
 	border-radius: 20px;
@@ -299,10 +325,10 @@ footer {
 		width: 560px;
 	}
 	
-	.productos4_caja {
-		width: 270px;
+	#productos4_caja {
+		width: 560px;
 	}
-	
+
 	.productos5_caja {
 		width: 270px;
 	}
@@ -395,10 +421,7 @@ footer {
 	#productos4{
 		height: auto;
 	}
-	.productos4_caja {
-		width: 96%;
-		float: none;
-	}
+	
 	
 	#productos5{
 		height: auto;
@@ -432,14 +455,14 @@ footer {
 
 #servicios {
 	height: 800px;
-	background-color: aqua;	
+	background-color: rgb(235, 235, 235);	
 	border-radius: 20px;
 }
 
 
 #contenedor_serv {
 	height: 600px;
-	background-color: #ec9b21;
+	background-color: #d6d6d6;
 }
 
 #mod1_serv, #mod2_serv{
@@ -452,11 +475,11 @@ footer {
 
 
 #serv1 {
-	background-color: #2121ec;
+	background-color: #e4e4e4;
 }
 
 #serv2 {
-	background-color: aquamarine;
+	background-color: rgb(185, 185, 185);
 }
 
 #serv2 div img{
@@ -466,22 +489,22 @@ footer {
 }
 
 #serv3 {
-	background-color: brown;
+	background-color: rgb(163, 163, 163);
 }
 
 #serv4 {
-	background-color: bisque;
+	background-color: rgb(185, 185, 185);
 }
 
 #serv5 {
-	background-color:#8b81aa;
+	background-color:#b3b3b3;
 }
 
 #serv6 {
-	background-color:darkseagreen;
+	background-color:rgb(196, 196, 196);
 }
 
 #serv7 {
-	background-color: coral;
+	background-color: rgb(192, 192, 192);
 }
 
