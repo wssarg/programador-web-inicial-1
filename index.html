@@ -6,13 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>E-Commerce</title>
 	<!-- CSS Bootstrap -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <!-- CSS Propio -->
-	<link href="estilo.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Font Awesome -->
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous"> -->
+	<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> -->
+	<!-- CSS Propio -->
+	<link rel="stylesheet" href="estilo.css">
 	<!-- JS Propio -->
 	<script type="text/javascript" src="unidad7.js"></script>
 </head>
 <body>
+	
 	<aside id="img_cabecera"></aside>
     <header>
 		
@@ -21,12 +25,15 @@
 			Sitio de E-Comerce
 			</h1>
 		</div>
-		<div id="logo"></div>
+		<div id="logo" >
+			<img src="imagenes/carrito_white.png" alt="Logo" style="max-width: 100%; max-height: 100%; width: auto; height: auto;">
+		</div>
 		<nav id="botonera">
 			<ul>
 				<li><a href="#nosotros">Nosotros</a></li>
 				<li><a href="#productos1">Productos</a></li>
 				<li><a href="#contacto">Contacto</a></li>
+				<li><a href="#servicios">Servicios</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -57,6 +64,7 @@
 		<div class="productos5_caja"></div>
 		<div class="productos5_caja"></div>
 	</section>	
+
 	<section id="nosotros">
 		<div class="nosotros_caja">
 			<h2>¿Quienes somos?</h2>
@@ -73,7 +81,58 @@
 			<p>Hay muchas variaciones de los pasajes de Lorem Ipsum disponibles, pero la mayoría sufrió alteraciones en alguna manera, ya sea porque se le agregó humor, o palabras aleatorias que no parecen ni un poco creíbles. Si vas a utilizar un pasaje de Lorem Ipsum, necesitás estar seguro de que no hay nada avergonzante escondido en el medio del texto. Todos los generadores de Lorem Ipsum que se encuentran en Internet tienden a repetir trozos predefinidos cuando sea necesario, haciendo a este el único generador verdadero (válido) en la Internet. Usa un diccionario de mas de 200 palabras provenientes del latín, combinadas con estructuras muy útiles de sentencias, para generar texto de Lorem Ipsum que parezca razonable. </p>
 		</div>
 	</section>
+
 	
+	<section id="servicios">
+		<main class="container-fluid" id="contenedor_serv">
+			<article class="row" id="mod1_serv">
+				<div class="col-sm-4 col-lg-8" id="serv1" class="container">
+					<form action="" class="row g-3">
+						<div class="col-auto">
+							<label for="serv1_correo" class="form-label">E-Mail</label>
+							<input type="email" class="form-control" id="serv1_correo">
+							<small id="emailHelp" class="form-text text-muted">Nunca publicaremos esta información.</small>
+						</div>
+						<div class="col-auto">
+							<label for="serv1_datalist" class="form-label">Tipo de correo</label>
+							<input type="class-control" list="serv1_data_list" id="serv1_datalist" placeholder="Escriba o busque un tipo">
+							<datalist id="serv1_data_list">
+								<option value="Trabajo"></option>
+								<option value="Personal"></option>
+								<option value="Otro"></option>
+							</datalist>
+
+						</div>
+						<div class="col-auto">
+							<button type="submit" class="btn btn-primary mb-3">Registrar</button>
+						</div>
+					</form>
+				</div>
+				<div class="col-sm-8 col-lg-4" id="serv2">
+					<div class="card" style="width: 18rem;">
+						<img src="imagenes/carrito.jpg" class="card-img-top" alt="..." style="max-width: 45%; max-height: 45%; width: auto; height: auto; ">
+						<div class="card-body">
+						  <h5 class="card-title">Compras</h5>
+						  <p class="card-text">Aca puede comprar de todo al mejor precio.</p>
+						  <a href="#" class="btn btn-primary">Agregar</a>
+						</div>
+					  </div>
+
+				</div>
+			</article>
+			<article class="row" id="mod2_serv">
+				<div class="col-sm-6 col-lg-3" id="serv3"></div>
+				<div class="col-sm-6 col-lg-6" id="serv4"></div>
+				<div class="col-lg-3" id="serv5"></div>
+			</article>
+			<article class="row" id="mod3_serv">
+				<div class="col-sm-4" id="serv6"></div>
+				<div class="col-sm-6 offset-sm-2" id="serv7"></div>
+				<!-- <div class="col-sm-6 col-sm-offset-2" id="serv7"></div> este ejemplo esta mal en los pdf-->
+			</article>			
+		</main>
+	</section>
+
 	<footer>
 		<div class="footer_caja">
 			<p>Desarrollado por Julio Leiva</p>
